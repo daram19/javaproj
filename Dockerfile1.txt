@@ -1,0 +1,9 @@
+FROM openjdk:21-jdk-alpine
+
+WORKDIR /usr/src/HelloWorld
+
+COPY   Hello, World!
+
+RUN javac   HelloWorld.java
+
+CMD["java", "HelloWorld"]
