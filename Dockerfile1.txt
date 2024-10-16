@@ -2,7 +2,7 @@ FROM openjdk:21-jdk-alpine
 
 WORKDIR /usr/src/HelloWorld
 
-COPY   Hello, World!
+COPY HelloWorld.java
 
 RUN javac   HelloWorld.java
 
